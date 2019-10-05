@@ -43,9 +43,9 @@
 
 It's expected that the Magento 2 project source code will be located and managed on the host to allow quick indexing of project files by IDE. All other infrastructure is deployed in kubernetes cluster on Minikube.
 
-Current DevBox aims to support multi-service multi-instance deployment in one click. Multiple Magento projects should be installed in a single Kubernetes cluster and share resoruces. Each of the Magento projects may be deployed as a monolith or a set of services. The DevBox is optimized for development scenarios using local environment.
+Current DevBox aims to support multi-service multi-instance deployment in one click. Multiple Magento projects should be installed in a single Kubernetes cluster and share resources. Each of the Magento projects may be deployed as a monolith or a set of services. The DevBox is optimized for development scenarios using local environment.
 
-The environment also suitable for for Magento Commerce and Magento B2B development.
+The environment also suitable for Magento Commerce and Magento B2B development.
 
 <!--It is easy to [install multiple Magento instances](#multiple-magento-instances) based on different codebases simultaneously.-->
 
@@ -268,7 +268,7 @@ XDebug is already configured to connect to the host machine automatically. So ju
 
  1. Set XDEBUG_SESSION=1 cookie (e.g. using 'easy Xdebug' extension for Firefox). See [XDebug documentation](http://xdebug.org/docs/remote) for more details
  1. Start listening for PHP Debug connections in PhpStorm on default 9000 port. See how to [integrate XDebug with PhpStorm](https://www.jetbrains.com/phpstorm/help/configuring-xdebug.html#integrationWithProduct)
- 1. Set beakpoint or set option in PhpStorm menu 'Run -> Break at first line in PHP scripts'
+ 1. Set breakpoint or set option in PhpStorm menu 'Run -> Break at first line in PHP scripts'
 
 <!--To debug a CLI script:
 
